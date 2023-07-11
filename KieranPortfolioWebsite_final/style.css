@@ -1,0 +1,227 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  background-color: #2A2138;
+  text-align: center;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#logo img {
+  width: 20px;
+  height: 20px;
+}
+
+#navbar {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+#navbar a {
+  background-color: #2A2138;
+  float: left;
+  display: block;
+  color: azure;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#navbar a:hover {
+  background-color: #b54796;
+  color: #1e4737;
+}
+
+#navbar a.active {
+  background-color: #b54796;
+  color: #1e4737;
+}
+
+.sticky {
+  position: fixed;
+  align-items: center;
+  top: 0;
+  width: 100%;
+}
+
+#navbar2 {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.content {
+  padding-top: 60px;
+}
+
+#pics {
+  margin-left: 15%;
+  width: 1200px;
+  height: 600px;
+  border: solid 10px #64577C;
+  border-radius: 15px;
+
+}
+
+#pics p {
+  width: 49%;
+  float: right;
+}
+
+.picsimg {
+  float: left;
+  width: 49%;
+  height: 100%;
+}
+
+.picshomebrew {
+  width: auto;
+  height: 100px;
+}
+
+footer {
+  color: grey;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  bottom: 0px;
+  text-decoration: none;
+}
+
+footer a {
+  color: grey;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  bottom: 0px;
+  text-decoration: none;
+}
+
+form {
+  margin-left: 3%;
+  width: 50%;
+  font-size: 30px;
+  border: solid 5px #64577C;
+  border-radius: 15px;
+  margin-bottom: 3%;
+}
+
+form input {
+  font-size: 30px;
+}
+
+#submit:hover {
+  background-color: #532346;
+  color: aliceblue;
+}
+
+#submit:active {
+  background-color: #b54796;
+  color: rgb(204, 219, 233);
+}
+
+#submit {
+  margin-left: 70%;
+  color: aliceblue;
+  background-color: #2A2138;
+  border: solid 5px #64577C;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+#Comments {
+  margin-top: 50px;
+}
+
+.comment {
+  margin-left: 15%;
+  width: 70%;
+  border: solid 5px #64577C;
+  border-radius: 15px;
+  background-image: url(pictures/nareiK_aesprite_flower_in_forest.png);
+}
+
+.comment2 {
+  padding: 4px;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+.comment section {
+  border: solid 10px #866db4;
+  border-radius: 15px;
+
+}
+
+.author {
+  font-weight: bold;
+  text-align: left;
+}
+
+.commentEntry {
+  margin: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  border: solid 5px #64577C;
+  border-radius: 15px;
+}
+
+
+.CV img {
+  border: solid 10px #64577C;
+  border-radius: 15px;
+}
+
+#loginbutton {
+  margin-left: 75%;
+  font-size: 25px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: aliceblue;
+  background-color: #2A2138;
+  border: solid 5px #64577C;
+  border-radius: 15px;
+}
+
+#loginbutton:hover {
+  background-color: #532346;
+  color: aliceblue;
+}
+
+#loginbutton:active {
+  background-color: #b54796;
+  color: rgb(204, 219, 233);
+}
+
+#introductie {
+  padding-bottom: 5%;
+}
+
+.homepics {
+  width: auto;
+  height: 400px;
+}
+canvas{
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimize-contrast
+}
